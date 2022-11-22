@@ -38,7 +38,6 @@ img {
 }
 
 .navbar .text{
-    margin: -40%;
     position: relative;
     color: darkslategray;
 }
@@ -157,8 +156,6 @@ ul li a:hover{
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
   text-align: center;
 }
 
@@ -187,11 +184,6 @@ ul li a:hover{
 .fade {
     animation-name: fade;
     animation-duration: 2s;
-}
-
-@keyframes fade {
-  from {opacity: 0.2} 
-  to {opacity: 1}
 }
 
 @media only screen and (max-width: 300px) {
