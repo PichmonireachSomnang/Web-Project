@@ -100,17 +100,19 @@ ul li a:hover{
     position: relative;
     height: 55px;
     width: 55px;
-    padding: 8px;
+    padding: 1%;
     border-radius:40px;
-    right: -500px;
+    right: -550px;
     background-color: #313238;
     background-image: url("../WebFinalProject/images/TranslateIconWhite.png");
     background-size: 55px 55px;
-    transition: .4s ease;
+    transition: .4s ease-in;
+    background-repeat: no-repeat;
 }
 
 .TLicon:hover{
     background-image: url("../WebFinalProject/images/TranslateIconOrange.png");
+    transition: .4s ease-out;
 }
 
 .search-box{
