@@ -1,119 +1,108 @@
+/*  ####################
+    -----MAIN STUFF-----
+    #################### */
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}}
 *{
     margin: 0;
     box-sizing: border-box;
-}
-
+    font-family: proxima-nova,Helvetica,sans-serif;}
 body {
-    font-family: Verdana, sans-serif;
-}
-
-.home{
-    background-color: white;
-}
-.scholarship{
-    background-color: rgb(230,104,59);
-    color: white;
-}
-
-nav{
-    padding: 1.5%;
-    background-color: #313238;
-}
-
-.mySlides {
-    display: none;
-}
-
-img {
-    vertical-align: middle;
-}
-
+    font-family: Verdana, sans-serif;}
 .main{
     width: 100%;
     position: relative;
-    font-family: sans-serif;
-}
+    font-family: sans-serif;}
 
-.navbar{
-    width: 86%;
-    display: flex;
-    margin: auto;
-    align-items: center;
-}
+/*  ##############################
+    ------CONTENT CATEGORIES------
+    ############################## */
 
-.navbar .logo{
-    width: 75px;
-    cursor: pointer;
-    margin-top: 0%;
-    margin-left: -2%;
+.home{
+    background-color: white;}
+.scholarship{
+    background-color: rgb(230,104,59);
+    color: white;}
+.events{
 }
+.abtus{
+    }
 
-.navbar .text{
-    position: relative;
-    color: white;
-}
+/*  ##################
+    -----ELEMENTS-----
+    ################## */
 
-.navbar .text span{
-    color:rgb(230,104,59);
-}
-
+img {
+vertical-align: middle;}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 15px;
+  position: absolute;}
+.image{
+    width: 30%;
+    height: 60%;
+    position:absolute;
+    right:100px;
+    bottom: 0;}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 0.2s ease;}
 ul li{
     list-style: none;
     display: inline-block;
-    padding: 10px 16px;
-}
-
+    padding: 10px 16px;}
 ul li a{
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     color: white;
-    transition: .4s ease;
-}
-
+    transition: .4s ease;}
 .ulstart{
-    padding-inline-start: 100px;
-}
-
+    padding-inline-start: 100px;}
 ul li a:hover{
-    color:rgb(230,104,59);
-}
-
+    color:rgb(230,104,59);}
 .info h1{
     padding: 1%;
     font-size: 65px;
-    text-align: center;
-}
-
+    text-align: center;}
 .info h3{
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 28px;
-    text-align: center;
-}
-
+    text-align: center;}
 .info span{
-    color:rgb(230,104,59);
-}
+    color:rgb(230,104,59);}
 
-.TLicon{
+/*-----NAV BAR-----*/
+
+.mySlides {
+    display: none;}
+nav{
+    padding: 1.5%;
+    background-color: #313238;}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    align-items: center;}
+.navbar .logo{
+    width: 75px;
+    cursor: pointer;
+    margin-top: 0%;
+    margin-left: -2%;}
+.navbar .text{
     position: relative;
-    height: 55px;
-    width: 55px;
-    padding: 1%;
-    border-radius:40px;
-    right: -550px;
-    background-color: #313238;
-    background-image: url("../WebFinalProject/images/TranslateIconWhite.png");
-    background-size: 55px 55px;
-    transition: .4s ease-in;
-    background-repeat: no-repeat;
-}
+    color: white;}
+.navbar .text span{
+    color:rgb(230,104,59);}
 
-.TLicon:hover{
-    background-image: url("../WebFinalProject/images/TranslateIconOrange.png");
-    transition: .4s ease-out;
-}
+/*-----SEARCH BOX-----*/
 
 .search-box{
     position: relative;
@@ -121,18 +110,12 @@ ul li a:hover{
     height: 55px;
     padding: 8px;
     border-radius:40px;
-    right: -500px;
-}
-
+    right: -500px;}
 .search-box:hover .search-txt{
     width: 220px;
-    height: auto;
-}
-
+    height: auto;}
 .search-box:hover .search-btn{
-    background: #fff;
-}
-
+    background: #fff;}
 .search-btn{
     text-decoration: none;
     background: #000;
@@ -143,9 +126,7 @@ ul li a:hover{
     align-items: center;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-}
-
+    border-radius: 50%;}
 .search-txt{
     padding: 0%;
     border: none;
@@ -156,49 +137,20 @@ ul li a:hover{
     font-size: 16px;
     transition: 0.3s ease;
     line-height: 40px;
-    width: 0px;
-}
+    width: 0px;}
 
-.image{
-    width: 30%;
-    height: 60%;
-    position:absolute;
-    right:100px;
-    bottom: 0;
-}
-
-
-.image img{
-    position: absolute;
-    height: 140%;
-    left: 40%;
-    transform: translate(-55%);
-    bottom: 0;
-    transition: left 0.2s ease;
-}
+/* -----SLIDESHOW----- */
 
 .slideshow-container {
   max-width: 500px;
   position: relative;
-  margin: auto;
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 15px;
-  position: absolute;
-
-}
-
+  margin: auto;}
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
-}
-
+  top: 0;}
 .dot {
   height: 15px;
   width: 15px;
@@ -206,18 +158,53 @@ ul li a:hover{
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
+  transition: background-color 0.6s ease;}
 .active {
-  background-color: #717171;
-}
-
+  background-color: #717171;}
 .fade {
     animation-name: fade;
-    animation-duration: 2s;
-}
+    animation-duration: 2s;}
 
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
+/* -----FOOTER----- */
+
+.footer {
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding: 100px;
+    background-color: #313238;
+    color: white;}
+.footer h1{
+    padding-left: 20px;}
+.footer h5{
+    color: #bbb;
+    text-align: center;}
+form{
+    box-sizing: border-box!important;}
+.form_group{
+    display: flex;
+    width: 615px;}
+.form_item {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 600px;}
+.form_input{
+    display: block;
+    padding: 12px 14px;
+    border-radius: 0;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    line-height: normal;
+    resize: none;
+    background: transparent;}
+.form_textarea{
+    display: block;
+    padding: 12px 14px;
+    border-radius: 0;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    line-height: normal;
+    resize: none;
+    background: transparent;}
