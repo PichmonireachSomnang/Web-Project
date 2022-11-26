@@ -29,6 +29,78 @@ body {
 .abtus{
     }
 
+/*  -----FOOTER-----
+    ############### */
+
+.footer {
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding: 100px;
+    background-color: #313238;
+    color: white;}
+.footer h1{
+    padding-left: 20px;}
+.footer h5{
+    color: #bbb;
+    text-align: center;}
+
+/* -----CONTACT FORM----- */
+
+form{
+    box-sizing: border-box!important;}
+.form_group{
+    display: flex;
+    width: 615px;}
+.form_item {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 600px;}
+.form_input{
+    display: block;
+    padding: 12px 14px;
+    border-radius: 0;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    line-height: normal;
+    resize: none;
+    background: transparent;}
+.form_textarea{
+    display: block;
+    padding: 12px 14px;
+    border-radius: 0;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    line-height: normal;
+    resize: none;
+    background: transparent;}
+.form_submit {
+    display: block;
+    margin-top: 20px;}
+.button{
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    width: 600px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    line-height: normal;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .2em;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transition: .3s ease-out;}
+.button:hover{
+    color: rgb(230,104,59);
+    border-color: rgb(230,104,59);
+    transition: .3s ease-in;}
+
 /*  ##################
     -----ELEMENTS-----
     ################## */
@@ -81,8 +153,6 @@ ul li a:hover{
 
 /*-----NAV BAR-----*/
 
-.mySlides {
-    display: none;}
 nav{
     padding: 1.5%;
     background-color: #313238;}
@@ -141,6 +211,8 @@ nav{
 
 /* -----SLIDESHOW----- */
 
+.mySlides {
+    display: none;}
 .slideshow-container {
   max-width: 500px;
   position: relative;
@@ -164,47 +236,3 @@ nav{
 .fade {
     animation-name: fade;
     animation-duration: 2s;}
-
-/* -----FOOTER----- */
-
-.footer {
-    text-align: left;
-    position: relative;
-    width: 100%;
-    padding: 100px;
-    background-color: #313238;
-    color: white;}
-.footer h1{
-    padding-left: 20px;}
-.footer h5{
-    color: #bbb;
-    text-align: center;}
-form{
-    box-sizing: border-box!important;}
-.form_group{
-    display: flex;
-    width: 615px;}
-.form_item {
-    margin-bottom: 15px;
-    margin-left: 15px;
-    width: 600px;}
-.form_input{
-    display: block;
-    padding: 12px 14px;
-    border-radius: 0;
-    border: 1px solid white;
-    color: white;
-    width: 100%;
-    line-height: normal;
-    resize: none;
-    background: transparent;}
-.form_textarea{
-    display: block;
-    padding: 12px 14px;
-    border-radius: 0;
-    border: 1px solid white;
-    color: white;
-    width: 100%;
-    line-height: normal;
-    resize: none;
-    background: transparent;}
