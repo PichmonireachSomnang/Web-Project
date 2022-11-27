@@ -52,8 +52,7 @@ body {
 /* -----CONTACT FORM----- */
 
 .contact{
-    float: left;
-}
+    float: left;}
 form{
     box-sizing: border-box!important;}
 .form_group{
@@ -123,9 +122,7 @@ form{
 /* ICONS */
 
 .icons{
-    float: right;
-}
-
+    float: right;}
 .twitter-icon{
     display: inline-block;
     text-align: center;
@@ -134,21 +131,18 @@ form{
     background-image: url('../WebFinalProject/images/twitter-icon-white.png');
     background-size: 50px;
     background-repeat: no-repeat;
-    transition: .2s ease-out;
-}
+    transition: .2s ease-out;}
 .twitter-icon:hover{
     background-image: url('../WebFinalProject/images/twitter-icon-blue.png');
     background-size: 50px;
     background-repeat: no-repeat;
-    transition: .2s ease-in;
-}
+    transition: .2s ease-in;}
 .icon-btn{
     background: transparent;
     background-size: 50px;
     border: 0;
     height: 50px;
-    width: 65px;
-}
+    width: 65px;}
 
 /*  ##################
     -----ELEMENTS-----
@@ -221,9 +215,9 @@ nav{
 .navbar .text span{
     color:rgb(230,104,59);}
 
-/*-----SEARCH BOX-----*/
+/*-----SEARCH BOX [[REMOVED]]-----*/
 
-.search-box{
+/* .search-box{
     position: relative;
     background-color: #000;
     height: 55px;
@@ -256,7 +250,7 @@ nav{
     font-size: 16px;
     transition: 0.3s ease;
     line-height: 40px;
-    width: 0px;}
+    width: 0px;} */
 
 /* -----SLIDESHOW----- */
 
