@@ -26,8 +26,7 @@ body {
     color: white;}
 .events{
 }
-.abtus{
-    }
+.abtus{}
 
 /*  -----FOOTER-----
     ############### */
@@ -41,12 +40,21 @@ body {
     color: white;}
 .footer h1{
     padding-left: 20px;}
+.footer h2{
+    padding-left: 20px;}
 .footer h5{
     color: #bbb;
-    text-align: center;}
+    text-align: center;
+    clear: both;
+}
+.footer p{
+    padding:0 0 20px 20px;}
 
 /* -----CONTACT FORM----- */
 
+.contact{
+    float: left;
+}
 form{
     box-sizing: border-box!important;}
 .form_group{
@@ -100,6 +108,19 @@ form{
     color: rgb(230,104,59);
     border-color: rgb(230,104,59);
     transition: .3s ease-in;}
+
+/* NEWSLETTER */
+
+.footer_block {
+    margin-left: 50px;
+    float: left;
+    position: relative;
+    margin-top: 48px;
+    flex-basis: 305px;
+    flex: 0 1 auto;}
+.footer_title {
+    margin-bottom: 20px;}
+
 
 /*  ##################
     -----ELEMENTS-----
