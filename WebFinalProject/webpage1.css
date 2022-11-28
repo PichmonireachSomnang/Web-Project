@@ -191,6 +191,18 @@ ul li a:hover{
     letter-spacing: 0.5px;
     line-height: 28px;
     text-align: center;}
+.info h2{
+    margin-left: 20%;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.info p{
+    margin-left: 20%;
+    margin-bottom: 3%;
+    width: 60%;
+
+    
+}
 .info span{
     color:rgb(230,104,59);}
 
@@ -215,7 +227,7 @@ nav{
 .navbar .text span{
     color:rgb(230,104,59);}
 
-    
+
 /*-----SEARCH BOX [[REMOVED]]-----*/
 
 /* .search-box{
@@ -253,7 +265,7 @@ nav{
     line-height: 40px;
     width: 0px;} */
 
-/* -----SLIDESHOW----- */
+/* -----SLIDESHOW [[REMOVED]]----- */
 /* 
 .mySlides {
     display: none;}
@@ -282,9 +294,7 @@ nav{
     animation-duration: 2s;} */
 
 #slider {
-    overflow: hidden;
-}
-
+    overflow: hidden;}
 @keyframes slider {
     0% { left: 0; }
     30% { left: 0; }
@@ -292,19 +302,14 @@ nav{
     63% { left: -100%; }
     66% { left: -200%; }
     95% { left: -200%; }
-    100% { left: 0; }
-}
+    100% { left: 0; }}
 #slider figure {
     width:300%;
     position: relative;
-    animation: 9s slider infinite;
-}
-
+    animation: 9s slider infinite;}
 #slider figure:hover {
-    /*animation-play-state: paused; enable for pause on hover*/
-}
+    animation-play-state: paused;}
 #slider figure img {
     width: 33.333333333%;
     height : 100%;
-    float: left;
-}
+    float: left;}
