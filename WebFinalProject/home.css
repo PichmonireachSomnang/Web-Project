@@ -6,14 +6,20 @@
   .text {font-size: 11px}}
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: proxima-nova,Helvetica,sans-serif;}
 body {
-    font-family: Verdana, sans-serif;}
+    font-family: proxima-nova,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.15);}
+a{
+    text-decoration: none;}
 .main{
     width: 100%;
     position: relative;
-    font-family: sans-serif;}
+    font-family: proxima-nova,Helvetica,sans-serif;}
 
 /*  ##############################
     ------CONTENT CATEGORIES------
@@ -179,7 +185,7 @@ ul li a{
     color: white;
     transition: .4s ease;}
 .ulstart{
-    padding-inline-start: 100px;}
+    padding-inline-start: 30em;}
 ul li a:hover{
     color:rgb(230,104,59);}
 .info h1{
@@ -200,8 +206,6 @@ ul li a:hover{
     margin-left: 20%;
     margin-bottom: 3%;
     width: 60%;
-
-    
 }
 .info span{
     color:rgb(230,104,59);}
@@ -265,33 +269,6 @@ nav{
     line-height: 40px;
     width: 0px;} */
 
-/* -----SLIDESHOW [[REMOVED]]----- */
-/* 
-.mySlides {
-    display: none;}
-.slideshow-container {
-  max-width: 500px;
-  position: relative;
-  margin: auto;}
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;}
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;}
-.active {
-  background-color: #717171;}
-.fade {
-    animation-name: fade;
-    animation-duration: 2s;} */
 
 #slider {
     overflow: hidden;}
@@ -307,8 +284,8 @@ nav{
     width:300%;
     position: relative;
     animation: 9s slider infinite;}
-#slider figure:hover {
-    animation-play-state: paused;}
+/* #slider figure:hover {
+    animation-play-state: paused;} */
 #slider figure img {
     width: 33.333333333%;
     height : 100%;

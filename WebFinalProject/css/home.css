@@ -1,0 +1,230 @@
+/*  ####################
+    -----MAIN STUFF-----
+    #################### */
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: proxima-nova,Helvetica,sans-serif;}
+body {
+    font-family: Verdana, sans-serif;}
+.main{
+    width: 100%;
+    position: relative;
+    font-family: sans-serif;}
+
+
+
+/*  ##############################
+    ------CONTENT CATEGORIES------
+    ############################## */
+
+.home{
+    background-color: white;}
+.scholarship{
+    background-color: rgb(230,104,59);
+    color: white;}
+.events{
+}
+.abtus{}
+
+/*  -----FOOTER-----
+    ############### */
+
+.footer {
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    background-color: #313238;
+    color: white;}
+.footer h1{
+    padding-left: 20px;}
+.footer h2{
+    padding-left: 20px;}
+.footer h5{
+    color: #bbb;
+    text-align: center;
+    clear: both;}
+.footer p{
+    padding:0 0 20px 20px;}
+
+/* -----CONTACT FORM----- */
+
+.contact{
+    float: left;}
+form{
+    box-sizing: border-box!important;}
+.form_group{
+    display: flex;
+    width: 615px;}
+.form_item {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 600px;}
+.form_input{
+    display: block;
+    padding: 12px 14px;
+    border-radius: 0;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    line-height: normal;
+    resize: none;
+    background: transparent;}
+.form_textarea{
+    display: block;
+    padding: 12px 14px;
+    border-radius: 0;
+    border: 1px solid white;
+    color: white;
+    width: 100%;
+    line-height: normal;
+    resize: none;
+    background: transparent;}
+.form_submit {
+    display: block;
+    margin-top: 20px;}
+.button{
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    width: 600px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    line-height: normal;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .2em;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transition: .3s ease-out;}
+.button:hover{
+    color: rgb(230,104,59);
+    border-color: rgb(230,104,59);
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+
+/* NEWSLETTER */
+
+.footer_block {
+    margin-left: 50px;
+    float: left;
+    position: relative;
+    margin-top: 48px;
+    flex-basis: 305px;
+    flex: 0 1 auto;}
+.footer_title {
+    margin-bottom: 20px;}
+
+/* ICONS */
+
+.icons{
+    float: right;}
+.twitter-icon{
+    display: inline-block;
+    text-align: center;
+    width: 55.33px;
+    height: 45px;
+    background-image: url('../images/twitter-icon-white.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+.twitter-icon:hover{
+    background-image: url('../images/twitter-icon-blue.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+.icon-btn{
+    background: transparent;
+    background-size: 50px;
+    border: 0;
+    height: 50px;
+    width: 65px;}
+
+/*  ##################
+    -----ELEMENTS-----
+    ################## */
+
+img {
+vertical-align: middle;}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 15px;
+  position: absolute;}
+.image{
+    width: 30%;
+    height: 60%;
+    position:absolute;
+    right:100px;
+    bottom: 0;}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 0.2s ease;}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: .4s ease;}
+.ulstart{
+    padding-inline-start: 100px;}
+ul li a:hover{
+    color:rgb(230,104,59);}
+.info h1{
+    padding: 1%;
+    font-size: 65px;
+    text-align: center;}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    text-align: center;}
+.info span{
+    color:rgb(230,104,59);}
+
+/*-----NAV BAR-----*/
+
+nav{
+    padding: 1.5%;
+    background-color: #313238;}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    align-items: center;}
+.navbar .logo{
+    width: 75px;
+    cursor: pointer;
+    margin-top: 0%;
+    margin-left: -2%;}
+.navbar .text{
+    position: relative;
+    color: white;}
+.navbar .text span{
+    color:rgb(230,104,59);}
+
+ul li{
+    position: relative;
+    left: 400px;
+}
