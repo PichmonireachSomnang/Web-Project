@@ -1,0 +1,29 @@
+#id1{
+    background-color: gray;
+    position: fixed;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#id2{
+    float: left;
+    background-color: lightyellow;
+    font-family: Verdana;
+    font-size: large;
+    padding: 20px;
+}
+
+#id3{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background-color: lightgray;
+    border: solid;
+}
+
+.class{
+    position: relative;
+    left: 15px;
+    background-color: lightgreen;
+}
+
