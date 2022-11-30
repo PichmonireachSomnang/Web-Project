@@ -3,11 +3,12 @@
 
 <head>
 <meta charset="utf-8">
-
-<title>Blog Section</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Events</title>
 
 <!--Stylesheet----------------------------------->
 <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+<link rel="stylesheet" type="text/css" href="home.css"/>
 
 <!--fav-icon------------------------------------->
 <link rel="icon" type="image/x-icon" href="images/OS Logo.png">
@@ -19,6 +20,26 @@
 </head>
 
 <body>
+  <div class="home">
+    <nav>
+      <div class="main">
+           <div class="navbar">
+               <img src = "images\OSLogo.png" class="logo">
+                 <div class="text">
+                   <h2><span>O</span>pportunities <span>S</span>eeker</h2>
+                 </div>
+             
+               <ul>
+                   <li class="ulstart"><a href ="home.html">HOME</a></li>
+                   <li><a href ="scholarships.html">SCHOLARSHIP</a></li>
+                   <li><a href ="events.html">EVENTS</a></li>
+                   <li><a href ="AboutUs.html">ABOUT US</a></li>
+               </ul>
+   
+           </div>
+     </nav>
+  </div>
+
 
   
 
@@ -32,7 +53,9 @@
           <span class="overline">Events</span>
           
         </div>
+        <br>
         <hr>
+        
   
   
         <!--container---------------->
@@ -48,7 +71,7 @@
             <!--text--->
             <div class="blog-text">
               <span>7 December 2022 / Events</span>
-              <a href="ignite.html" class="blog-title">Ignite Cambodia Volunteers</a>
+              <a href="ignite.html" class="blog-title">Ignite Cambodia Volunteers 2022</a>
               
             </div>
   
@@ -144,6 +167,52 @@
   
       </section>
 
+<div class="footer">
+
+    <div class="contact">
+      <h1>Contact us</h1><br>
+        <form>
+          <div class="form_group">
+              <div class="form_item">
+                <input type="text" class="form_input" name="name" placeholder="Your name" required="">
+              </div>
+              <div class="form_item">
+                <input type="email" class="form_input" name="email" placeholder="Your email" required="">
+              </div>
+          </div>
+          <div class="form_item">
+            <input type="text" class="form_input" name="phone" placeholder="Your phone (optional)">
+          </div>
+          <div class="form_item">
+            <textarea name="text[body]" cols="30" rows="10" class="form_textarea" placeholder="Your message" required=""></textarea>
+          </div>
+          <button type="submit" class="form_submit button button-primary">Send message
+  
+          </button>
+        </form>
+  
+      </div>
+      <div class="footer_block">
+        <h2 class="footer_title">Newsletter</h2>
+          <div class="footer_content">
+            <p>Subscribe to receive updates.</p>
+          </div>
+            <form method="post" id="footer-newsletter" accept-charset="UTF-8" class="footer_newsletter form">
+              <div class="form_item">
+                <input type="email" name="email" class="form_input" placeholder="Enter your email address" required="">
+              </div>
+              <button type="submit" class="form_submit button button-primary">Subscribe</button>
+            </form>
+        </div>
+      <br>
+        <div class="icons">
+            <a target="_blank" href="https://twitter.com/Tuy_Pascal">
+              <button class="icon-btn">
+                <span class="twitter-icon"></span></button></a>
+        </div>
+      <h5>&copy 2022 OS Studios</h5>
+  
+  </div>
       
 </body>
 

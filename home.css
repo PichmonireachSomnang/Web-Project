@@ -231,44 +231,7 @@ nav{
 .navbar .text span{
     color:rgb(230,104,59);}
 
-
-/*-----SEARCH BOX [[REMOVED]]-----*/
-
-/* .search-box{
-    position: relative;
-    background-color: #000;
-    height: 55px;
-    padding: 8px;
-    border-radius:40px;
-    right: -500px;}
-.search-box:hover .search-txt{
-    width: 220px;
-    height: auto;}
-.search-box:hover .search-btn{
-    background: #fff;}
-.search-btn{
-    text-decoration: none;
-    background: #000;
-    color:orangered;
-    display: flex;
-    float: left;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;}
-.search-txt{
-    padding: 0%;
-    border: none;
-    background: none;
-    outline: none;
-    color: #fff ;
-    float: left;
-    font-size: 16px;
-    transition: 0.3s ease;
-    line-height: 40px;
-    width: 0px;} */
-
+/* slider */
 
 #slider {
     overflow: hidden;}
@@ -290,3 +253,5 @@ nav{
     width: 33.333333333%;
     height : 100%;
     float: left;}
+
+
