@@ -26,9 +26,7 @@ a{
 .scholarship{
     background-color: rgb(230,104,59);
     color: white;}
-.events{
-}
-.abtus{}
+
 
 /*  -----FOOTER-----
     ############### */
@@ -121,30 +119,53 @@ form{
 .footer_title {
     margin-bottom: 20px;}
 
-/* ICONS */
+/* -----ICONS-----
+##################*/
 
-.icons{
-    float: right;}
-.twitter-icon{
+/* -----TWITTER----- */
+    .clear{
+        clear: right;
+    }
+    .icons{
+        float: right;
+        padding-bottom: 10px;}
+    .twitter-icon{
+        display: inline-block;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        background-image: url('../images/twitter-icon-white.png');
+        background-size: 50px;
+        background-repeat: no-repeat;
+        transition: .2s ease-out;}
+    .twitter-icon:hover{
+        background-image: url('../images/twitter-icon-blue.png');
+        background-size: 50px;
+        background-repeat: no-repeat;
+        transition: .2s ease-in;}
+    .icon-btn{
+        background: transparent;
+        background-size: 50px;
+        border: 0;
+        height: 50px;
+        width: 65px;}
+
+/* -----FACEBOOK----- */
+
+.facebook-icon{
     display: inline-block;
     text-align: center;
-    width: 55.33px;
-    height: 45px;
-    background-image: url('../images/twitter-icon-white.png');
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/facebook-white-logo.png');
     background-size: 50px;
     background-repeat: no-repeat;
     transition: .2s ease-out;}
-.twitter-icon:hover{
-    background-image: url('../images/twitter-icon-blue.png');
+.facebook-icon:hover{
+    background-image: url('../images/facebook-blue-logo.png');
     background-size: 50px;
     background-repeat: no-repeat;
     transition: .2s ease-in;}
-.icon-btn{
-    background: transparent;
-    background-size: 50px;
-    border: 0;
-    height: 50px;
-    width: 65px;}
 
 /*  ##################
     -----ELEMENTS-----
@@ -196,13 +217,11 @@ vertical-align: middle;}
 .info h2{
     margin-left: 20%;
     margin-bottom: 10px;
-    font-weight: 700;
-}
+    font-weight: 700;}
 .info p{
     margin-left: 20%;
     margin-bottom: 3%;
-    width: 60%;
-}
+    width: 60%;}
 .info span{
     color:rgb(230,104,59);}
 
