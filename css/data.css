@@ -1,46 +1,47 @@
 *{
     font-family: proxima-nova,Helvetica,sans-serif;
-
 }
 
-h2{
+.title{
     text-align: center;
+    padding: 1%;
 }
 
-ul li{
+.list ul li{
     font-size: 18px;
     position: relative;
-    left:-10px;
 }
-ol li{
+.list ol li{
     position: relative;
-    left:-10px;
 }
 .container{
     text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: 1%;
 }
-.info{
+.inf{
     display: inline-block;
     text-align: left;
-    /* background-color: rgba(211, 211, 211, 0.249); */
     line-height: 1.6;
     border-width: 2px;
     border-style: solid;
     border-color: #FF0000;
+    padding: 5%;
 }   
 
-img{
+.poster{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: auto;
     height: 400px;
 }
 
-.button{
+.greenbtn{
     text-align: center;
 }
-button {
+.greenbutton {
     border: none;
     color: white;
     padding: 16px 32px;
@@ -57,9 +58,7 @@ button {
     
 }
   
-
-  
-button:hover {
+.greenbutton:hover {
     background-color: #4CAF50;
     color: white;
   }

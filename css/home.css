@@ -6,16 +6,16 @@
   .text {font-size: 11px}}
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: proxima-nova,Helvetica,sans-serif;}
 body {
-    font-family: Verdana, sans-serif;}
-.main{
-    width: 100%;
-    position: relative;
-    font-family: sans-serif;}
-
-
+    font-family: proxima-nova,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.15);}
+a{
+    text-decoration: none;}
 
 /*  ##############################
     ------CONTENT CATEGORIES------
@@ -37,7 +37,7 @@ body {
     text-align: left;
     position: relative;
     width: 100%;
-    padding: 30px;
+    padding: 100px;
     background-color: #313238;
     color: white;}
 .footer h1{
@@ -107,10 +107,7 @@ form{
 .button:hover{
     color: rgb(230,104,59);
     border-color: rgb(230,104,59);
-    transition: .3s ease-in;
-    cursor: pointer;
-}
-
+    transition: .3s ease-in;}
 
 /* NEWSLETTER */
 
@@ -136,16 +133,12 @@ form{
     background-image: url('../images/twitter-icon-white.png');
     background-size: 50px;
     background-repeat: no-repeat;
-    transition: .2s ease-out;
-    cursor: pointer;
-}
+    transition: .2s ease-out;}
 .twitter-icon:hover{
     background-image: url('../images/twitter-icon-blue.png');
     background-size: 50px;
     background-repeat: no-repeat;
-    transition: .2s ease-in;
-    cursor: pointer;
-}
+    transition: .2s ease-in;}
 .icon-btn{
     background: transparent;
     background-size: 50px;
@@ -177,19 +170,19 @@ vertical-align: middle;}
     transform: translate(-55%);
     bottom: 0;
     transition: left 0.2s ease;}
-ul li{
+.homelist ul li{
     list-style: none;
     display: inline-block;
     padding: 10px 16px;}
-ul li a{
+.homelist ul li a{
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     color: white;
     transition: .4s ease;}
-.ulstart{
-    padding-inline-start: 100px;}
-ul li a:hover{
+#ulstart{
+    padding-inline-start: 30em;}
+.homelist ul li a:hover{
     color:rgb(230,104,59);}
 .info h1{
     padding: 1%;
@@ -200,6 +193,16 @@ ul li a:hover{
     letter-spacing: 0.5px;
     line-height: 28px;
     text-align: center;}
+.info h2{
+    margin-left: 20%;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.info p{
+    margin-left: 20%;
+    margin-bottom: 3%;
+    width: 60%;
+}
 .info span{
     color:rgb(230,104,59);}
 
@@ -224,7 +227,27 @@ nav{
 .navbar .text span{
     color:rgb(230,104,59);}
 
-ul li{
+/* slider */
+
+#slider {
+    overflow: hidden;}
+@keyframes slider {
+    0% { left: 0; }
+    30% { left: 0; }
+    33% { left: -100%; }
+    63% { left: -100%; }
+    66% { left: -200%; }
+    95% { left: -200%; }
+    100% { left: 0; }}
+#slider figure {
+    width:300%;
     position: relative;
-    left: 400px;
-}
+    animation: 9s slider infinite;}
+/* #slider figure:hover {
+    animation-play-state: paused;} */
+#slider figure img {
+    width: 33.333333333%;
+    height : 100%;
+    float: left;}
+
+
