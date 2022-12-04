@@ -24,12 +24,13 @@ a{
 .home{
     background-color: white;}
 .scholarship{
-    background-color: rgb(230,104,59);
+    background-image: url('../images/scholarshipbg-01.png');
+    background-size: 100%;
     color: white;
     width: 100%;
     }
 .events{
-    background-color: #868686;
+    background-color: #808080;
     color: white;
     width: 100%;
 }
@@ -62,14 +63,36 @@ a{
     background-image: url('../images/HomeScholarship-white-01.png');
     background-size: 500px;
     background-repeat: no-repeat;
+    border-style: none;
+    box-shadow: 0 0 10px 3px rgba(41, 41, 41, 0.5);
+    border-radius: 25px;
     transition: .2s ease-out;}
 .HomeSch:hover{
     background-image: url('../images/HomeScholarship-orange-01.png');
     background-size: 500px;
     background-repeat: no-repeat;
+    box-shadow: 0 0 10px 5px rgba(63, 63, 63, 0.24);
     transition: .2s ease-in;
-    transform: scale(1.05);
-}
+    transform: scale(1.05);}
+.HomeEvent{
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('../images/HomeEvent-white-01.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border-style: none;
+    box-shadow: 0 0 10px 3px rgba(41, 41, 41, 0.5);
+    border-radius: 25px;
+    transition: .2s ease-out;}
+.HomeEvent:hover{
+    background-image: url('../images/HomeEvent-orange-01.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px 5px rgba(63, 63, 63, 0.24);
+    transition: .2s ease-in;
+    transform: scale(1.05);}
 
 /*  -----FOOTER-----
     ############### */
