@@ -27,17 +27,14 @@ a{
     background-image: url('../images/scholarshipbg-01.png');
     background-size: 100%;
     color: white;
-    width: 100%;
-    }
+    width: 100%;}
 .events{
     background-color: #808080;
     color: white;
-    width: 100%;
-}
+    width: 100%;}
 .Tcenter{
     padding: 3%;
-    text-align: center;
-}
+    text-align: center;}
 .Sbutton{
     position: relative;
     display: inline-block;
