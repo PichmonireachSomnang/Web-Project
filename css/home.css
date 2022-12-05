@@ -27,14 +27,17 @@ a{
     background-image: url('../images/scholarshipbg-01.png');
     background-size: 100%;
     color: white;
-    width: 100%;}
+    width: 100%;
+    }
 .events{
     background-color: #808080;
     color: white;
-    width: 100%;}
+    width: 100%;
+}
 .Tcenter{
     padding: 3%;
-    text-align: center;}
+    text-align: center;
+}
 .Sbutton{
     position: relative;
     display: inline-block;
@@ -168,7 +171,9 @@ form{
 .button:hover{
     color: rgb(230,104,59);
     border-color: rgb(230,104,59);
-    transition: .3s ease-in;}
+    transition: .3s ease-in;
+    cursor: pointer;
+}
 
 /* NEWSLETTER */
 
@@ -178,7 +183,8 @@ form{
     position: relative;
     margin-top: 48px;
     flex-basis: 305px;
-    flex: 0 1 auto;}
+    flex: 0 1 auto;
+}
 .footer_title {
     margin-bottom: 20px;}
 
@@ -199,12 +205,16 @@ form{
         background-image: url('../images/twitter-icon-white.png');
         background-size: 50px;
         background-repeat: no-repeat;
-        transition: .2s ease-out;}
+        transition: .2s ease-out;
+        cursor: pointer;
+    }
     .twitter-icon:hover{
         background-image: url('../images/twitter-icon-blue.png');
         background-size: 50px;
         background-repeat: no-repeat;
-        transition: .2s ease-in;}
+        transition: .2s ease-in;
+        cursor: pointer;
+    }
     .icon-btn{
         background: transparent;
         background-size: 50px;
@@ -222,12 +232,16 @@ form{
     background-image: url('../images/facebook-white-logo.png');
     background-size: 50px;
     background-repeat: no-repeat;
-    transition: .2s ease-out;}
+    transition: .2s ease-out;
+    cursor: pointer;
+}
 .facebook-icon:hover{
     background-image: url('../images/facebook-blue-logo.png');
     background-size: 50px;
     background-repeat: no-repeat;
-    transition: .2s ease-in;}
+    transition: .2s ease-in;
+    cursor: pointer;
+}
 
 /*  ##################
     -----ELEMENTS-----
