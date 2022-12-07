@@ -292,13 +292,15 @@ vertical-align: middle;}
     line-height: 28px;
     text-align: center;}
 .info h2{
-    margin-left: 20%;
+    margin-left: 24%;
     margin-bottom: 10px;
     font-weight: 700;}
 .info p{
-    margin-left: 20%;
+    margin-left: 25%;
     margin-bottom: 3%;
-    width: 60%;}
+    width: 50%;
+    line-height: 30px;
+}
 .info span{
     color:rgb(230,104,59);}
 
