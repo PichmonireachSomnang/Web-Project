@@ -57,6 +57,12 @@ h3{
     border: 1px solid #ececec;
     margin: 20px 20px;
     margin-bottom: 100px;
+    transition: .2s ease-out;
+}
+.blog-box:hover{
+    box-shadow: 0 0 10px 5px rgba(63, 63, 63, 0.24);
+    transition: .2s ease-in;
+    transform: scale(1.05);
 }
 .blog-img{
     width:100%;
@@ -222,5 +228,4 @@ margin-left: auto;
     padding: 0 10px;
     position: relative;
     top: -10px;
-    
 }
